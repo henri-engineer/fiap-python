@@ -1,0 +1,46 @@
+print("########## Exercício 1 ##########")
+print("Faça um programa que exiba seu nome na tela")
+print("Henrique Augusto Cruz")
+a = 2
+b = 3
+print(" ")
+print("########## Exercício 2 ##########")
+print("Escreva um programa que exiba o resultado de 2a x 3b, em que a vale 3 e b vale 5.")
+print((2*a)*(3*b))
+print(" ")
+print("########## Exercício 3 ##########")
+print("Escreva um programa que calcule a soma de três variáveis e imprima o resultado na tela.")
+c = 1
+d = 4
+e = 7
+print(c+d+e)
+print(" ")
+print("########## Exercício 4 ##########")
+print("Faça um programa que peça dois números inteiros. Imprima a soma desses dois números na tela.")
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite outro número: "))
+print(num1+num2)
+print(" ")
+
+print("########## Exercício 5 ##########")
+print("Escreva um programa que leia um valor em metros e o exiba convertido em milímetros.")
+valorEmMetros = float(input("Digite o valor em metros "))
+print(valorEmMetros,"m -> ", valorEmMetros*1000,"cm")
+print(" ")
+
+print("########## Exercício 6 ##########")
+print("Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos.")
+dias = int(input("Digite a quantidade de dias: "))
+horas = int(input("Digite a quantidade de horas: "))
+minutos = int(input("Digite a quantidade de minutos: "))
+segundos = int(input("Digite a quantidade de segundos: "))
+print("Total em segundos: ",dias*86400 + horas*3600 + minutos*60 + segundos)
+print(" ")
+
+print("########## Exercício 7 ##########")
+print("Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.")
+salario = float(input("Digite o salário: "))
+aumento = float(input("Digite o percentual de aumento: "))
+print("Valor de Aumento: R$", salario*aumento/100)
+print("Novo Salário: R$",salario+(salario*aumento/100))
+print(" ")
